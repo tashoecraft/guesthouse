@@ -1,0 +1,181 @@
+html, body {
+    height: 100%;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+}
+.vcenter {
+    display: inline-block;
+    vertical-align: middle;
+    float: none;
+}
+
+
+.mainBanner {
+    background-image: url("Images/Carousel1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #464646;
+    text-align: center;
+}
+
+.mainBanner .loginText {
+    padding-top: 80px;
+    padding-bottom: 160px;
+}
+
+.topBar {
+    margin: 10px;
+}
+
+.listPlace {
+    background-color: #E7CB0A;
+}
+
+.col-lg-4 {
+    padding-right: 1px;
+    padding-left: 1px;
+}
+
+.mainBanner h1 {
+    font-size: 42px;
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.mainBanner span {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+.searchBoxes {
+    margin: 50px 0;
+}
+
+.loginBoxes {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.loginBox {
+    margin-bottom: 15px;
+}
+
+
+.destinations {
+    background-color: #F0F0F0;
+    text-align: center;
+    overflow: auto;
+    margin: 0 -15px 0 -15px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+.destinations h1 {
+    font-size: 32px;
+
+}
+
+.destinations span {
+    font-size: 18px;
+    color: #888888;
+}
+
+.destinText {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.destinImages {
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+.grid {
+    overflow: auto;
+    margin-right: 32px;
+}
+
+
+.gridLeft img {
+    margin-left: 10px;
+    padding-right: 5px;
+    padding-left: 20px;
+    padding-bottom: -5px;
+}
+
+
+.grid img {
+    padding-left: 0;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+}
+
+.how {
+    text-align: center;
+    margin: 50px auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.howText h2 {
+    font-size: 32px;
+    color: black;
+}
+
+.howText span {
+    font-size: 18px;
+    color: #888888;
+}
+
+.icons {
+    overflow: auto;
+    margin: 30px auto;
+}
+
+.iconText {
+    text-align: left;
+}
+
+.iconText span{
+    font-size: 24px;
+    color: #666;
+}
+
+.iconText p {
+    font-size: 16px;
+    color: #888888;
+}
+
+.testimonials {
+    margin-left: -15px;
+    margin-right: -15px;
+    text-align: center;
+    background-color: #F0F0F0;
+    overflow: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.testimonials h2 {
+    padding-bottom: 30px;
+}
+
+.testimonials p {
+    font-size: 17px;
+    color: #67696A;
+}
+
+.indivTest {
+    margin: 0 auto;
+}
+
+.copyright {
+    text-align: center;
+}

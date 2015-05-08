@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GuestHouse</title>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+
+	<link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="handlebars-v3.0.3.js"></script>
+    <script type="text/javascript" src="build/templates.js"></script>
+</head>
+<body>
+<div class="container">
+    <nav class="nav navbar-default topBar">
+        <div class="nav col-md-12">
+            <div class="icon col-md-2 col-md-offset-1">
+                <img src="Images/Guesthouse-logo.png" class="logo">
+            </div>
+            <ul class="nav nav-pills col-md-offset-8">
+                <li role="presentation"><a href="#" class="login">LOGIN</a></li>
+                <li role="presentation"><a href="#" class="signup">SIGNUP</a></li>
+                <li role="presentation" class="listPlace"><a href="#">List Your Place</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="outlet">
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(function() {
+            console.log("Fired");
+            var homeHTML = Templates["templates/home.hbs"]();
+            $("#outlet").html(homeHTML);
+        });
+    </script>
+
+    <div class="copyright row-fluid">
+        <div>
+            <p>&copy; Guesthouse, Inc</p>
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript" src="scripts.js"></script>
+</body>
+</html>
